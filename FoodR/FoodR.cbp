@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FoodR" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FoodR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FoodR" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="BST/implementation/ulasanBST_[nim_anggota_1].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BST/implementation/ulasanBST_[nim_anggota_2].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BST/ulasanBST.h">
+		</Unit>
+		<Unit filename="Bonus/bonus.h">
+		</Unit>
+		<Unit filename="Bonus/implementation/bonus.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Khusus/implementation/khusus.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Khusus/khusus.h">
+		</Unit>
+		<Unit filename="MLL-01/implementation/kunjungan/kunjungan_[nim_anggota_1].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/implementation/kunjungan/kunjungan_[nim_anggota_2].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/implementation/restoran/restoran_[nim_anggota_1].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/implementation/restoran/restoran_[nim_anggota_2].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/implementation/reviewer/reviewer_[nim_anggota_1].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/implementation/reviewer/reviewer_[nim_anggota_2].cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MLL-01/kunjungan.h">
+		</Unit>
+		<Unit filename="MLL-01/restoran.h">
+		</Unit>
+		<Unit filename="MLL-01/reviewer.h">
+		</Unit>
+		<Unit filename="dummy.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dummy.h">
+		</Unit>
+		<Unit filename="interface.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interface.h">
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option compilerVar="CC" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
